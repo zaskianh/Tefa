@@ -4,7 +4,7 @@
             <div class="col-lg-4">
                 <h2 class="text-center my-4">buku</h2>
                 <div class="my-3">
-                    <input type="search" class="form-control rounded-5" placeholder="Mau baca apa hari ini?">
+                    <input type="text" v-model="keyword" class="form-control rounded-5" placeholder="Mau baca apa hari ini?" @input="getBuku">
                 </div>
                 <div class="my-3 text-muted">menampilkan 60 dari 60</div>
             </div>

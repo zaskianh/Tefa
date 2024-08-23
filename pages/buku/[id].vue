@@ -20,13 +20,6 @@
                         <h5>tahun terbit: {{ buku.tahun_terbit }}</h5>
                         <h5>penerbit: {{ buku.penerbit }}</h5>
                     </div>
-                    <div class="col-4 d-flex flex-column justify-content-center align-items">
-                        <div class="mb-5">
-                            <div class="card-body">
-                                <img :src="buku.cover" class="ukuran center" />
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

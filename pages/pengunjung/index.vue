@@ -5,7 +5,7 @@
                 <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
             <div class="my-3">
                 <form @submit.prevent="getPengunjung">
-                    <input v-model="keyword" type="serch" class="form-conrol form-control-lg rounded-5" placeholder="Mencari..." />
+                    <input v-model="keyword" type="serch" class="form-conrol form-control-lg rounded-5" placeholder="Mencari..." @input="getPengunjung" />
                 </form>
             </div>
             <div class="my-3">Menampilkan {{ visitors.length }} Dari 1{{ Semua }}</div>
